@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    background-color: rgb(223, 218, 218);
+    font-family: 'Fira Sans', 'sans-serif';
+    height: 100vh;
+    /* translate: transform 0.3s ease-in; */
+}
+
+.sidebar nav {
+    padding: 45px;
+}
+
+.sidebar nav li {
+    list-style-type: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.main {
+    /* background-color: yellow; */
+    width: 90vw;
+}
+
+.container {
+    display: flex;
+}
+
+.infoContainer {
+    /* background-color: rgb(221, 15, 170); */
+    height: 58vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devInfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'source Code Pro ', monospace;
+}
+
+.hello {
+    font-size: 65px;
+    font-family: 'Fira Sans', 'sans-serif';
+}
+
+.name {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Fira Sans', 'sans-serif';
+}
+
+.about {
+    font-size: 40px;
+}
+
+.moreabout {
+    font-size: 22px;
+    margin-top: 23px;
+    margin-bottom: 4%;
+    font-family: 'Fira Sans', 'sans-serif';
+}
+
+.buttons {
+    margin-top: -8 px;
+    margin-left: -3px;
+
+}
+
+.btn {
+    padding: 7px 15px;
+    border-radius: 22px;
+    color: white;
+    background: dodgerblue;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.btn {
+    font-size: 11px;
+    padding: 7px 17px;
+    margin: 9px 0;
+}
+
+.btn-sm {
+    font-size: 10px;
+    padding: 7px 13px;
+    margin: 10px 0;
+}
+
+.btn:hover {
+    background-color: white;
+    color: dodgerblue;
+}
+
+.devPic img {
+    height: 58vh;
+}
+
+.contactform {
+    padding: 0 34px;
+    padding-top: 65px;
+    font-family: 'Fira Sans', 'sans-serif';
+}
+
+.contactform h1 {
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 400;
+    padding: 12px 0;
+}
+
+.contactform form div {
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div input {
+    width: 26vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+
+#emailHelp {
+    font-size: 11px;
+    color: midnightblue;
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+}
+
+#form-check {
+    flex-direction: row;
+}
+
+#form-check input {
+    width: 24px;
+    margin: 3px 0;
+}
+
+.blogItem {
+    margin: 20px;
+    font-family: 'Fira Sans', 'sans-serif';
+}
+
+h1 {
+
+    font-family: 'Fira Sans', 'sans-serif';
+    margin: 23px;
+}
+
+.blogItem h2 {
+    margin-top: 0%;
+}
+
+p {
+    font-family: 'source Code Pro ', monospace;
+}
+
+.intro h2 {
+    font-family: 'Fira Sans', 'sans-serif';
+    margin: 12px;
+}
+
+.intro p {
+    font-family: 'source Code Pro ', monospace;
+    margin: 12px;
+}
+
+.skillcontainer {
+    padding: 12px;
+}
+
+.skillItem {
+    display: flex;
+    align-items: center;
+    font-family: 'source Code Pro ', monospace
+}
+
+.skill {
+    width: 265px;
+    height: 6px;
+    background-color: violet;
+    border: 2px solid black;
+}
+
+.hundred {
+    width: 265px;
+    background-color: aqua;
+}
+
+.fifty {
+    width: 125px;
+    background-color: yellow;
+}
+
+.t5 {
+    width: 75px;
+    background-color: greenyellow;
+}
+
+.sidebarGo {
+    transform: translate(-225px, 0px);
+    position: absolute;
+    }
+
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+    
+}
+
+.cross{
+    margin-left: 173px;
+}
+
+@media (max-width: 740px) {
+    * {
+        /* background-color: red; */
+    }
+    .devPic{
+        display: none;
+    }
+
+    /* .sidebar {
+    transform: translate(-225px, 0px);
+    position: absolute;
+    } */
+}
